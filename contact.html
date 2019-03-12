@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Daniel Scheid</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>DANIEL SCHEID</h1>
+      <nav>
+        <a href="index.html">ABOUT</a> |
+        <a>PROJECTS</a> |
+        <a>PHOTOGRAPHY</a> |
+        <a>CODE</a> |
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form method="post">
+
+        <h2>Send a message to me!</h2>
+        Email: <input type="email" name="email"><br>
+        Name: <input type="text" name="name"><br>
+
+        <fieldset>
+          <legend>Pet preferences</legend>
+          <input type="radio" name="pet" value="dog"> Dog<br>
+          <input type="radio" name="pet" value="cat"> Cat<br>
+          <input type="radio" name="pet" value="other"> Other
+        </fieldset>
+
+        <fieldset>
+          <legend>You are inquiring about..</legend>
+          <input type="checkbox" name="interest" value="friends"> I want to be friends<br>
+          <input type="checkbox" name="interest" value="employment"> I'd like to hire you<br>
+          <input type="checkbox" name="interest" value="other" checked> I'm not sure<br>
+        </fieldset>
+
+        Message: <br><textarea name="message" rows="8" cols="80"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <footer>
+      <p class="ft-text">Made by Daniel, 2/6/2019</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a:nth-child(4) {
+  font-family: monospace;
+  font-size: 150%;
+}
+
+a {
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #2bd8ca;
+}
+
+i {
+  font-size: 450%;
+  padding: 10px;
+}
+
+.container{
+  background-color: #d3d3d3;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+article {
+  width: 230px;
+  height: 65%;
+  padding: 35px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 70%
+}
+
+form {
+  background-color: white;
+  padding: 50px;
+}
+
+fieldset {
+  margin-top: 1rem;
+}
